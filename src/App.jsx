@@ -161,92 +161,94 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="grid md:grid-flow-col my-5 gap-5 lg:mx-24 mx-3">
-          <div className="shadow white p-10 rounded-3xl">
-            <img
-              className=" w-full"
-              style={{ height: "120px" }}
-              src="./d1495e21-0617-4794-8eec-e16949ebb2b9.jpg"
-              alt=""
-            />
-            <p className="text-sm mt-2 text-gray-400">BLOG</p>
-            <p className="text-2xl">GFonts</p>
-            <a href="https://favouromirin.netlify.app/blog">
-              <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
-                arrow_forward
-              </span>
-            </a>
-          </div>
-          <div className="shadow white  p-10 rounded-3xl">
-            <img
-              className="mt-4  w-full"
-              style={{ width: "600px" }}
-              src="./b31c9254-bbaa-4c6a-a6ac-62297125c7e9.jpg"
-              alt=""
-            />
-            <p className="text-sm mt-14 text-gray-400">SPECIALIZATION</p>
-            <p className="text-2xl">Services offering</p>
-            <a href="https://favouromirin.netlify.app/resume">
-              <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
-                arrow_forward
-              </span>
-            </a>
-          </div>
-          <div className="shadow  white p-10 rounded-3xl">
-            <img
-              className=" w-full"
-              style={{ minWidth: "300px" }}
-              src="./8d1120cf-c532-4c82-b0fc-52b3dc99a64c.jpg"
-              alt=""
-            />
-            <p className="mt-10 text-sm text-gray-400">STAY WITH ME</p>
-            <p className="text-2xl">Profiles</p>
-            <a href="https://favouromirin.netlify.app/contact">
-              <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
-                arrow_forward
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className="grid md:grid-flow-col lg:mx-24 mx-3 gap-5">
-          <div className="shadow white p-10 rounded-3xl">
-            <div className="grid md:grid-cols-3 gap-5">
-              <div
-                className={`${
-                  isDarkMode ? "bg-gray-800" : "bg-gray-100"
-                }  p-3 rounded-3xl flex flex-col  items-center w-full`}
-              >
-                <p className="text-3xl text-blue-500 mb-2">03</p>
-                <p className="text-sm text-gray-400">YEARS</p>
-                <p className="text-sm text-gray-400">EXPERIENCE</p>
-              </div>
-              <div
-                className={`${
-                  isDarkMode ? "bg-gray-800" : "bg-gray-100"
-                }  p-3 rounded-3xl flex flex-col  items-center w-full`}
-              >
-                <p className="text-3xl text-blue-500 mb-2">+125</p>
-                <p className="text-sm text-gray-400">CLIENTS</p>
-                <p className="text-sm text-gray-400">WORLDWIDE</p>
-              </div>
-              <div
-                className={`${
-                  isDarkMode ? "bg-gray-800" : "bg-gray-100"
-                }  p-3 rounded-3xl flex flex-col  items-center w-full`}
-              >
-                <p className="text-3xl text-blue-500 mb-2">+210</p>
-                <p className="text-sm text-gray-400">TOTAL</p>
-                <p className="text-sm text-gray-400">PROJECTS</p>
-              </div>
+        <div className="w-full">
+          <div className="grid  md:grid-flow-col my-5 gap-5 lg:mx-24  mx-3">
+            <div className="shadow white p-10 rounded-3xl w-00">
+              <img
+                className=" w-full "
+                style={{ maxHeight: "120px" }}
+                src="./d1495e21-0617-4794-8eec-e16949ebb2b9.jpg"
+                alt=""
+              />
+              <p className="text-sm mt-2 text-gray-400">BLOG</p>
+              <p className="text-2xl">GFonts</p>
+              <a href="https://favouromirin.netlify.app/blog">
+                <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
+                  arrow_forward
+                </span>
+              </a>
+            </div>
+            <div className="shadow white  p-10 rounded-3xl w-00">
+              <img
+                className="mt-4  w-full"
+                style={{ maxWidth: "600px" }}
+                src="./b31c9254-bbaa-4c6a-a6ac-62297125c7e9.jpg"
+                alt=""
+              />
+              <p className="text-sm mt-14 text-gray-400">SPECIALIZATION</p>
+              <p className="text-2xl">Services offering</p>
+              <a href="https://favouromirin.netlify.app/resume">
+                <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
+                  arrow_forward
+                </span>
+              </a>
+            </div>
+            <div className="shadow  white p-10 rounded-3xl w-00">
+              <img
+                className=" w-full"
+                style={{ maxWidth: "300px" }}
+                src="./8d1120cf-c532-4c82-b0fc-52b3dc99a64c.jpg"
+                alt=""
+              />
+              <p className="mt-10 text-sm text-gray-400">STAY WITH ME</p>
+              <p className="text-2xl">Profiles</p>
+              <a href="https://favouromirin.netlify.app/contact">
+                <span class="material-icons w-full flex justify-end -mt-10 text-gray-300">
+                  arrow_forward
+                </span>
+              </a>
             </div>
           </div>
-          <div className="shadow white p-10 rounded-3xl">
-            <p className="inline text-4xl">
-              Let's <br />
-              work{"     "}
-            </p>
-            {"     "}
-            <p className="inline text-4xl text-blue-500"> together.</p>
+          <div className="grid md:grid-flow-col lg:mx-24 mx-3 gap-5">
+            <div className="shadow white p-10 rounded-3xl">
+              <div className="grid md:grid-cols-3 gap-5">
+                <div
+                  className={`${
+                    isDarkMode ? "bg-gray-800" : "bg-gray-100"
+                  }  p-3 rounded-3xl flex flex-col  items-center w-full`}
+                >
+                  <p className="text-3xl text-blue-500 mb-2">03</p>
+                  <p className="text-sm text-gray-400">YEARS</p>
+                  <p className="text-sm text-gray-400">EXPERIENCE</p>
+                </div>
+                <div
+                  className={`${
+                    isDarkMode ? "bg-gray-800" : "bg-gray-100"
+                  }  p-3 rounded-3xl flex flex-col  items-center w-full`}
+                >
+                  <p className="text-3xl text-blue-500 mb-2">+125</p>
+                  <p className="text-sm text-gray-400">CLIENTS</p>
+                  <p className="text-sm text-gray-400">WORLDWIDE</p>
+                </div>
+                <div
+                  className={`${
+                    isDarkMode ? "bg-gray-800" : "bg-gray-100"
+                  }  p-3 rounded-3xl flex flex-col  items-center w-full`}
+                >
+                  <p className="text-3xl text-blue-500 mb-2">+210</p>
+                  <p className="text-sm text-gray-400">TOTAL</p>
+                  <p className="text-sm text-gray-400">PROJECTS</p>
+                </div>
+              </div>
+            </div>
+            <div className="shadow white p-10 rounded-3xl">
+              <p className="inline text-4xl">
+                Let's <br />
+                work{"     "}
+              </p>
+              {"     "}
+              <p className="inline text-4xl text-blue-500"> together.</p>
+            </div>
           </div>
         </div>
       </div>

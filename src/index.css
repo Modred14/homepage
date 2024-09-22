@@ -2,9 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; /* Default background for dark mode */
-  color-scheme: light dark;
+  width: 100%;
+  color: #ffffffde;
+  background-color: #ffffff; /* Default background for dark mode */
 }
 
 h1 {
@@ -45,31 +45,34 @@ button:focus-visible {
     color: #ffffff;
   }
 }
-.white{
-  background-color:#ffffff;
+.white {
+  background-color: #ffffff;
+}
+:root.dark {
+  background-color: #242424;
 }
 /* Dark mode styles */
 body.dark {
   margin: 0;
-  
+
   padding-top: 0.1%;
   padding-bottom: 0.1%;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  .white{
-    background-color:#213547;
+  .white {
+    background-color: #213547;
   }
 }
 .hi {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 @media screen and (max-width: 768px) {
-  .hd{
+  .hd {
     display: none;
     opacity: 0;
   }
-  .hi{
+  .hi {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-
   }
 }
+
