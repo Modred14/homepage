@@ -16,9 +16,6 @@ function App() {
   }, [isDarkMode]);
   const toggleMode = () => {
     setIsDarkMode((prevMode) => !prevMode);
-    if (isDarkMode) {
-    } else {
-    }
   };
   const handleEmailClick = () => {
     window.location.href = "mailto:favourdomirin@gmail.com";
@@ -69,7 +66,7 @@ function App() {
             )}
           </button>
           <button
-            className={`transition-colors duration-500  ${
+            className={`transition-colors duration-500 text-sm ${
               isDarkMode ? "bg-gray-100 text-black" : "bg-black text-white"
             }`}
             onClick={handleEmailClick}

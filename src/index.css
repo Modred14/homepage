@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   width: 100%;
-  color: #ffffffde;
+  color: #213547;
   background-color: #ffffff; /* Default background for dark mode */
 }
 
@@ -48,10 +48,14 @@ button:focus-visible {
 .white {
   background-color: #ffffff;
 }
+:root {
+  color: #213547;
+  background-color: #f4f4f4;
+}
 :root.dark {
   background-color: #242424;
 }
-/* Dark mode styles */
+
 body.dark {
   margin: 0;
 
