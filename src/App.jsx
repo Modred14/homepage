@@ -62,7 +62,9 @@ function App() {
                 ☀️ dark
               </div>
             ) : (
-              <div className="absolute text-sm -mt-3 ">light 🌘</div>
+              <div className={`absolute text-sm -mt-3 ${
+                isDarkMode ? " text-black" : " text-white"
+              }`}>light 🌘</div>
             )}
           </button>
           <button
