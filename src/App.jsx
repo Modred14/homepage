@@ -68,7 +68,7 @@ function App() {
             )}
           </button>
           <button
-            className={`transition-colors duration-500 text-sm ${
+            className={`transition-colors duration-500 text-sm px-2 py-1 ${
               isDarkMode ? "bg-gray-100 text-black" : "bg-black text-white"
             }`}
             onClick={handleEmailClick}
