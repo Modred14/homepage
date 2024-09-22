@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; /* Default background for dark mode */
+  color-scheme: light dark;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #f4f4f4;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: rgb(16, 13, 13);
+    color: #ffffff;
+  }
+}
+.white{
+  background-color:#ffffff;
+}
+/* Dark mode styles */
+body.dark {
+  margin: 0;
+  
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  .white{
+    background-color:#213547;
+  }
+}
+.hi {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media screen and (max-width: 768px) {
+  .hd{
+    display: none;
+    opacity: 0;
+  }
+  .hi{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+}
